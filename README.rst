@@ -1,6 +1,3 @@
-Zipf's Law
-==========
-
 The ``pyzipf`` package tallies the occurrences of words in text
 files and plots each word's rank versus its frequency together 
 with a line for the theoretical distribution for Zipf's Law.
@@ -8,11 +5,11 @@ with a line for the theoretical distribution for Zipf's Law.
 Motivation
 ----------
 
-Zipf's Law is often stated as an observational pattern seen in the
+Zipf's Law is often stated as an observational pattern in the
 relationship between the frequency and rank of words in a text:
 
-`"…the most frequent word will occur approximately twice as often
-as the second most frequent word,
+`"…the most frequent word will occur approximately twice as
+often as the second most frequent word,
 three times as often as the third most
 frequent word, etc."`
 — `wikipedia <https://en.wikipedia.org/wiki/Zipf%27s_law>`_
@@ -35,12 +32,12 @@ Usage
 After installing this package, the following three commands will
 be available from the command line
 
-- ``countwords`` for counting the occurrences of words in a text.
-- ``collate`` for collating multiple word count files together.
-- ``plotcounts`` for visualizing the word counts.
+- ``countwords`` for counting the occurrences of words in a text
+- ``collate`` for collating multiple word count files together
+- ``plotcounts`` for visualizing the word counts
 
-A typical usage scenario would include running the following from
-your terminal::
+A typical usage scenario would include running the following
+from your terminal::
 
     countwords dracula.txt > dracula.csv
     countwords moby_dick.txt > moby_dick.csv
@@ -49,13 +46,7 @@ your terminal::
 
 Additional information on each function
 can be found in their docstrings and appending the ``-h`` flag,
-e.g. ``countwords -h``.
-
-Contributors
-------------
-
-- Amira Khan <amira@zipf.org> @amira-khan
-- Sami Virtanen <sami@zipf.org> @sami-virtanen
+e.g., ``countwords -h``.
 
 Contributing
 ------------
