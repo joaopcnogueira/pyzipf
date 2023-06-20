@@ -1,0 +1,7 @@
+__pycache__
+.coverage
+htmlcov/
+pyzipf.egg-info/
+dist/
+docs/_build/
+.venv
